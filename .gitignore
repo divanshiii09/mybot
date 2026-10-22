@@ -1,0 +1,20 @@
+# Secrets and local settings (API keys go only in Cloudflare/Vercel settings)
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+
+# Tool and build folders
+node_modules/
+.wrangler/
+.vercel/
+
+# Raw test output (results summary is in test-results.md)
+test-output/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
